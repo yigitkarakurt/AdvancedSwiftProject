@@ -11,6 +11,30 @@ let classYigit = MusicianClass(name: "Yigit", age: 20, instrument: "Guitar")
 
 print(classYigit.name)
 
-let structureYigit = MusicianStructure(name: "Yigit", age: 20, instrument: "Guitar")
+var structureYigit = MusicianStructure(name: "Yigit", age: 20, instrument: "Guitar")
 
 print(structureYigit.name)
+
+//Immutable
+
+structureYigit.age = 22
+print(structureYigit.age)
+
+//Referance vs Value
+
+let copyOfClassYigit = classYigit
+var copyOfStructureYigit = structureYigit
+
+copyOfClassYigit.age = 25
+copyOfStructureYigit.age = 25
+
+print(copyOfClassYigit.age)
+print(copyOfStructureYigit.age)
+//No problem here
+
+print(classYigit.age)
+print(structureYigit.age)
+//Here classYigit age was changed but not structureYigit's
+
+//Referance Type -> Class
+//Value Type -> Structure
