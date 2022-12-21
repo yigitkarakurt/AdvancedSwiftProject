@@ -62,5 +62,24 @@ tuple2.0 = "ali"
 
 let tuple3 : (String,String)
 tuple3.0 = "yigit"
-print(tuple3.0)
+
+//Guard Let - If Let
+
+let myNumber = "a"
+
+func convertToIntGuard(stringInput : String) -> Int {
+    guard let myInteger = Int(stringInput) else {
+        return 0
+    }
+    return myInteger
+}
+
+func convertToIntIf(stringInput : String) -> Int {
+    if let myInteger = Int(stringInput){
+        return myInteger
+    }else{
+        return 0
+    }
+}
+
 
