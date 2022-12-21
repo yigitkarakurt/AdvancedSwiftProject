@@ -50,3 +50,17 @@ copyOfStructureYigit.age = 25
 //structureYigit.happyBirthday()
 //print(structureYigit.age)
 //Cannot change value in structure, you have to use mutating func
+
+
+//Tuple
+
+let tuple = (1,3)
+//print(tuple.0)
+
+var tuple2 = ("yigit",20)
+tuple2.0 = "ali"
+
+let tuple3 : (String,String)
+tuple3.0 = "yigit"
+print(tuple3.0)
+
