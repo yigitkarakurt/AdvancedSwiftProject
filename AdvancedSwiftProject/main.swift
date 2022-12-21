@@ -82,4 +82,21 @@ func convertToIntIf(stringInput : String) -> Int {
     }
 }
 
+//Switch Case
 
+let myInt = 11
+var remainder = 11 % 7
+
+switch remainder{
+case 1 :
+    print("it is 1")
+case 2 :
+    print("it is 2")
+case 3...10 :
+    print("it is between 3 and 10")
+    
+default:
+    print("none of above")
+
+}
+    
