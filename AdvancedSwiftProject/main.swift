@@ -83,7 +83,7 @@ func convertToIntIf(stringInput : String) -> Int {
 }
 
 //Switch Case
-
+/*
 let myInt = 11
 var remainder = 11 % 7
 
@@ -99,4 +99,20 @@ default:
     print("none of above")
 
 }
-    
+*/
+
+//Breakpoint
+
+var aNumber = 5
+
+print(aNumber)
+
+aNumber += 1
+
+print(aNumber)
+
+
+
+
+
+
